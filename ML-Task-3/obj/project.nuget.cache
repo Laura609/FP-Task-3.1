@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "6h9WrJeA6zUamG4pQExdEnx6bfdWBqj59IjU24I/PPN57KNpKDMgyzn0inJbUzN0PchrflC+4m4x7kr1hDiCwA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Laura\\source\\repos\\ML-Task-3\\ML-Task-3\\ML-Task-3.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Laura\\.nuget\\packages\\materialdesigncolors\\2.1.1\\materialdesigncolors.2.1.1.nupkg.sha512",
+    "C:\\Users\\Laura\\.nuget\\packages\\materialdesignthemes\\4.7.1\\materialdesignthemes.4.7.1.nupkg.sha512",
+    "C:\\Users\\Laura\\.nuget\\packages\\microsoft.xaml.behaviors.wpf\\1.1.39\\microsoft.xaml.behaviors.wpf.1.1.39.nupkg.sha512"
+  ],
+  "logs": []
+}
