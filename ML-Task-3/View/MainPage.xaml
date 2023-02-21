@@ -24,37 +24,37 @@
             <StackPanel VerticalAlignment="Top" Height="450" Width="100" Margin="0,0,680,0" Grid.RowSpan="2" Background="#4E51D8">
                 <Button Content="1"
                         Style="{StaticResource BtnMain}"
-                        MouseDown="Border_MouseDown1"></Button>
+                        Click="Button_Click1"></Button>
                 <Button Content="2"
                         Style="{StaticResource BtnMain}"
-                        MouseDown="Border_MouseDown2"></Button>
+                        Click="Button_Click2"></Button>
                 <Button Content="3"
                         Style="{StaticResource BtnMain}"
-                        MouseDown="Border_MouseDown3"></Button>
+                        Click="Button_Click3"></Button>
                 <Button Content="4"
                         Style="{StaticResource BtnMain}"
-                        MouseDown="Border_MouseDown4"></Button>
+                        Click="Button_Click4"></Button>
                 <Button Content="5"
                         Style="{StaticResource BtnMain}"
-                        MouseDown="Border_MouseDown5"></Button>
+                        Click="Button_Click5"></Button>
                 <Button Content="6"
                         Style="{StaticResource BtnMain}"
-                        MouseDown="Border_MouseDown6"></Button>
+                        Click="Button_Click6"></Button>
                 <Button Content="7"
                         Style="{StaticResource BtnMain}"
-                        MouseDown="Border_MouseDown7"></Button>
+                        Click="Button_Click7"></Button>
                 <Button Content="8"
                         Style="{StaticResource BtnMain}"
-                        MouseDown="Border_MouseDown8"></Button>
+                        Click="Button_Click8"></Button>
                 <Button Content="9"
                         Style="{StaticResource BtnMain}"
-                        MouseDown="Border_MouseDown9"></Button>
+                        Click="Button_Click9"></Button>
                 <Button Content="10"
                         Style="{StaticResource BtnMain}"
-                        MouseDown="Border_MouseDown10"></Button>
+                        Click="Button_Click10"></Button>
                 <Button Content="11"
                         Style="{StaticResource BtnMain}"
-                        MouseDown="Border_MouseDown11"></Button>
+                        Click="Button_Click11"></Button>
             </StackPanel>
         </Grid>
     </Border>
