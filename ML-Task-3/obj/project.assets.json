@@ -157,11 +157,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Laura\\source\\repos\\ML-Task-3\\ML-Task-3\\ML-Task-3.csproj",
+      "projectUniqueName": "C:\\Users\\Laura\\source\\repos\\ML-Task-3\\FP-Task-3\\ML-Task-3\\ML-Task-3.csproj",
       "projectName": "ML-Task-3",
-      "projectPath": "C:\\Users\\Laura\\source\\repos\\ML-Task-3\\ML-Task-3\\ML-Task-3.csproj",
+      "projectPath": "C:\\Users\\Laura\\source\\repos\\ML-Task-3\\FP-Task-3\\ML-Task-3\\ML-Task-3.csproj",
       "packagesPath": "C:\\Users\\Laura\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Laura\\source\\repos\\ML-Task-3\\ML-Task-3\\obj\\",
+      "outputPath": "C:\\Users\\Laura\\source\\repos\\ML-Task-3\\FP-Task-3\\ML-Task-3\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Laura\\AppData\\Roaming\\NuGet\\NuGet.Config",

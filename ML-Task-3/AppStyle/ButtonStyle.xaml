@@ -19,16 +19,18 @@
     </Style>
 
 
-    <Style TargetType="Button" x:Key="btnBackMain" BasedOn="{StaticResource BtnBackMain}">
+    <!--<Style 
+        TargetType="Button" x:Key="btnBackMain" BasedOn="{StaticResource btnBackMain}">
         <Setter Property="Margin" Value="0 10 10 0"/>
         <Setter Property="Background" Value="#303285"/>
         <Setter Property="Foreground" Value="White"/>
         <Setter Property="Foreground" Value="White"></Setter>
     </Style>
-
     <Style TargetType="Button" x:Key="BtnBackMain">
         <Setter Property="HorizontalAlignment" Value="Right"/>
         <Setter Property="VerticalAlignment" Value="Top"></Setter>
-    </Style>
+        <Setter Property="PackIcon" Value="Home"></Setter>
+        <Setter Property="Icon" Value="Home"></Setter>
+    </Style>-->
 </ResourceDictionary>
             

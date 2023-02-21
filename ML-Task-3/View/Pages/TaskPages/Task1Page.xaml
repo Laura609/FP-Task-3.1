@@ -18,11 +18,10 @@
                 <RowDefinition Height="0.2*"></RowDefinition>
                 <RowDefinition Height="1*"></RowDefinition>
             </Grid.RowDefinitions>
+            <!--<Button Grid.Row="0"
+                Style="{StaticResource BtnBackMain}">
 
-            <Button Grid.Row="0" 
-                Style="{StaticResource MaterialDesignIconButton} {StaticResource btnBackMain}">
-                <materialDesign:PackIcon Kind="Home"/>
-            </Button>
+            </Button>-->
         </Grid>
     </Border>
 </Page>
