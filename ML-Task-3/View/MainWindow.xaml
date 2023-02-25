@@ -4,19 +4,18 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:ML_Task_3"
-        Height="460"
-        Width="800"
+        d:DesignHeight="600"
+        d:DesignWidth="800"
         AllowsTransparency="True"
         Background="Transparent"
         ResizeMode="NoResize"
         WindowStartupLocation="CenterScreen"
         WindowStyle="None"
-        mc:Ignorable="d"
-        MouseDown="Window_MouseDown">
+        mc:Ignorable="d">
 
     <Border MouseDown="Border_MouseDown">
         <Grid>
-            <Frame x:Name="MainFrame" />
+            <Frame x:Name="MainFrame" NavigationUIVisibility="Hidden"/>
         </Grid>
     </Border>
 </Window>

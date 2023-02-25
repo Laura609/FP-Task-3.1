@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ML_Task_3.Core;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -23,6 +24,11 @@ namespace ML_Task_3.View.Pages.TaskPages
         public Task1Page()
         {
             InitializeComponent();
+        }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            CoreNavigate.MyCore?.GoBack();
         }
     }
 }
