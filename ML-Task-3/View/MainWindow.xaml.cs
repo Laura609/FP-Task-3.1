@@ -1,12 +1,10 @@
 ﻿using ML_Task_3.Core;
 using ML_Task_3.View;
 using System.Windows;
+using System.Windows.Controls;
 using System.Windows.Input;
 namespace ML_Task_3
 {
-    /// <summary>
-    /// Interaction logic for MainWindow.xaml
-    /// </summary>
     public partial class MainWindow : Window
     {
         public MainWindow()
@@ -15,8 +13,10 @@ namespace ML_Task_3
 
             CoreNavigate.MyCore = MainFrame;
 
-            MainFrame.Navigate(new MainPage());
+            Frame.Navigate(new MainPage());
         }
+
+        public Frame? MainFrame { get; }
 
         private void Window_MouseDown(object sender, MouseButtonEventArgs e)
         {
@@ -25,13 +25,6 @@ namespace ML_Task_3
                 this.DragMove();
             }
         }
-            private void Border_MouseDown(object sender, MouseButtonEventArgs e)
-            {
-                if (e.ClickCount == 2)
-                {
-                    Application.Current.Shutdown();
-                }
-            }
     }
 }
 

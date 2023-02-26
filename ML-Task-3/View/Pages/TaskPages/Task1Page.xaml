@@ -5,22 +5,26 @@
       xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
       xmlns:local="clr-namespace:ML_Task_3.View.Pages.TaskPages"
-      mc:Ignorable="d" 
       d:DesignHeight="600"
-      d:DesignWidth="800"
+      d:DesignWidth="700"
+      mc:Ignorable="d"
       Title="Task1Page">
 
 
     <Border Padding="10"
             CornerRadius="15"
-            Background="#303285">
+            Background="Black">
         <Grid>
-            <Grid.ColumnDefinitions>
-                <ColumnDefinition Width="30*"/>
-                <ColumnDefinition Width="170*"/>
-                <ColumnDefinition/>
-            </Grid.ColumnDefinitions>
 
+
+            <Border
+                Grid.Column="1"
+                Width="150"
+                Height="250"
+                Background="White" Margin="226,165,134,165">
+                
+                
+            </Border>
         </Grid>
     </Border>
 </Page>
