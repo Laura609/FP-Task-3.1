@@ -5,6 +5,7 @@
         <Setter Property="Height" Value="15"/>
         <Setter Property="Width" Value="78"/>
         <Setter Property="Margin" Value="5 4 5 0"/>
+        <Setter Property="Foreground" Value="#6474D6"/>
     </Style>
 
 </ResourceDictionary>

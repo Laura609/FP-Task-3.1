@@ -16,16 +16,17 @@
             <Grid Grid.Column="0">
                 <Border 
                 Grid.Column="0"
-                BorderThickness="1"
+                BorderThickness="0 0 2 0"
                 Background="Transparent"             
-                BorderBrush="#DBDBDB"
+                BorderBrush="#223867"
                 Width="170"
                 Height="600"
-                CornerRadius="15">
+                CornerRadius="15 0 0 15">
 
                     <!--Кнопки меню-->
                     <StackPanel Grid.Column="0"
-                            Name="MenuPanel">
+                            Name="MenuPanel"
+                            Background="#223867">
 
                         <Button 
                          Style="{StaticResource menuButton}"
@@ -149,18 +150,6 @@
 
                         <Button 
                         Style="{StaticResource menuButton}"
-                        x:Name="BtnTask11"
-                            Click="BtnTask11_Click">
-                            <StackPanel>
-                                <materialDesign:PackIcon Kind="Calendar"
-                                Style="{StaticResource menuButtonIcon}"/>
-                                <TextBlock Text="Задание №11"
-                                   Style="{StaticResource menuButtonText}"/>
-                            </StackPanel>
-                        </Button>
-
-                        <Button 
-                        Style="{StaticResource menuButton}"
                         x:Name="BtnLogout">
                             <StackPanel Margin="0 -10 0 0" MouseDown="BtnLogout_Click">
                                 <materialDesign:PackIcon Kind="Power"
@@ -170,7 +159,6 @@
                             </StackPanel>
                         </Button>
                     </StackPanel>
-
                 </Border>
             </Grid>
             <Grid Grid.Column="1">

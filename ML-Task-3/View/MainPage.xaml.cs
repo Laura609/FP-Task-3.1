@@ -67,11 +67,6 @@ namespace ML_Task_3.View
             FramePanel.Navigate(typeof(Task10Page));
         }
 
-        private void BtnTask11_Click(object sender, RoutedEventArgs e)
-        {
-            FramePanel.Navigate(typeof(Task11Page));
-        }
-
 
                         //Кнопка выхода//
         private void BtnLogout_Click(object sender, MouseButtonEventArgs e)

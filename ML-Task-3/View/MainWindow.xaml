@@ -14,7 +14,7 @@
         MouseDown="Window_MouseDown">
 
     <Border 
-        Background="#303285"
+        Background="#35497E"
         CornerRadius="15">
         <Grid>
             <Frame x:Name="Frame" NavigationUIVisibility="Hidden"/>

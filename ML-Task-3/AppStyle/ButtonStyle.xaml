@@ -6,7 +6,7 @@
         <Setter Property="Background" Value="Transparent"/>
         <Setter Property="Foreground" Value="white"/>
         <Setter Property="FontSize" Value="14"/>
-        <Setter Property="Height" Value="50"/>
+        <Setter Property="Height" Value="54"/>
         <Setter Property="Width" Value="165"/>
         <Setter Property="VerticalAlignment" Value="Top"/>
         <Setter Property="HorizontalAlignment" Value="Center"/>
@@ -26,5 +26,12 @@
         </Setter>
     </Style>
 
+    <Style TargetType="Button" x:Key="BtnAnswer">
+        <Setter Property="Background" Value="Transparent"/>
+        <Setter Property="BorderBrush" Value="#6474D6"/>
+        <Setter Property="Height" Value="45"/>
+        <Setter Property="Width" Value="150"/>
+        <Setter Property="Margin" Value="0 350 0 0"/>
+    </Style>
 </ResourceDictionary>
             
