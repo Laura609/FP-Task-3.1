@@ -29,46 +29,47 @@ namespace ML_Task_3.View
 
         private void BtnTask3_Click(object sender, RoutedEventArgs e)
         {
-            FramePanel.Navigate(typeof(Task3Page));
+            FramePanel.Navigate(new Task3Page());
         }
 
         private void BtnTask4_Click(object sender, RoutedEventArgs e)
         {
-            FramePanel.Navigate(typeof(Task4Page));
+            FramePanel.Navigate(new Task4Page());
         }
 
         private void BtnTask5_Click(object sender, RoutedEventArgs e)
         {
-            FramePanel.Navigate(typeof(Task5Page));
+            FramePanel.Navigate(new Task5Page());
         }
 
         private void BtnTask6_Click(object sender, RoutedEventArgs e)
         {
-            FramePanel.Navigate(typeof(Task6Page));
+            FramePanel.Navigate(new Task6Page());
         }
 
         private void BtnTask7_Click(object sender, RoutedEventArgs e)
         {
-            FramePanel.Navigate(typeof(Task7Page));
+            FramePanel.Navigate(new Task7Page());
         }
 
         private void BtnTask8_Click(object sender, RoutedEventArgs e)
         {
-            FramePanel.Navigate(typeof(Task8Page));
+            FramePanel.Navigate(new Task8Page());
         }
 
         private void BtnTask9_Click(object sender, RoutedEventArgs e)
         {
-            FramePanel.Navigate(typeof(Task9Page));
+            FramePanel.Navigate(new Task9Page());
         }
 
         private void BtnTask10_Click(object sender, RoutedEventArgs e)
         {
-            FramePanel.Navigate(typeof(Task10Page));
+            FramePanel.Navigate(new Task10Page());
         }
 
 
-                        //Кнопка выхода//
+        //Кнопка выхода//
+
         private void BtnLogout_Click(object sender, MouseButtonEventArgs e)
         {
             Application.Current.Shutdown();

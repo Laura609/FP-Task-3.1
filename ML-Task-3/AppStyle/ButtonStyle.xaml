@@ -2,9 +2,10 @@
                     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" 
                     xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes">
 
+                
     <Style TargetType="Button" x:Key="menuButton">
         <Setter Property="Background" Value="Transparent"/>
-        <Setter Property="Foreground" Value="white"/>
+        <Setter Property="Foreground" Value="#707db2"/>
         <Setter Property="FontSize" Value="14"/>
         <Setter Property="Height" Value="54"/>
         <Setter Property="Width" Value="165"/>
@@ -12,20 +13,45 @@
         <Setter Property="HorizontalAlignment" Value="Center"/>
         <Setter Property="FocusVisualStyle" Value="{x:Null}"/>
         <Setter Property="Cursor" Value="Hand"/>
+        <Setter Property="Tag" Value="#6673b7"/>
         <Setter Property="Template">
             <Setter.Value>
                 <ControlTemplate TargetType="Button">
-                    <Border Background="{TemplateBinding Background}"
-                        CornerRadius="15">
-                        <ContentPresenter HorizontalAlignment="Center"
-                                      VerticalAlignment="Center">
-                        </ContentPresenter>
+                    <Border Background="{TemplateBinding Background}" BorderThickness="4 0 0 0" BorderBrush="Transparent">
+                        <ContentPresenter HorizontalAlignment="Stretch" VerticalAlignment="Center"/>
                     </Border>
                 </ControlTemplate>
             </Setter.Value>
         </Setter>
+
+        <Style.Triggers>
+            <Trigger Property="IsMouseOver" Value="True">
+                <Setter Property="Foreground" Value="#bccaf1"/>
+                <Setter Property="Tag" Value="#7071f0"/>
+                <Setter Property="Background">
+                    <Setter.Value>
+                        <LinearGradientBrush StartPoint="0,0.5" EndPoint="1,0.5">
+                            <GradientStop Color="#31407b" Offset="0"/>
+                            <GradientStop Color="#495385" Offset="3"/>
+                        </LinearGradientBrush>
+                    </Setter.Value>
+                </Setter>
+                <Setter Property="Template">
+                    <Setter.Value>
+                        <ControlTemplate TargetType="Button">
+                            <Border Background="{TemplateBinding Background}" BorderThickness="4 0 0 0" BorderBrush="#a5a1f5">
+                                <ContentPresenter HorizontalAlignment="Stretch" VerticalAlignment="Center"/>
+                            </Border>
+                        </ControlTemplate>
+                    </Setter.Value>
+                </Setter>
+            </Trigger>
+        </Style.Triggers>
     </Style>
 
+    
+    
+    
     <Style TargetType="Button" x:Key="BtnAnswer">
         <Setter Property="Background" Value="Transparent"/>
         <Setter Property="BorderBrush" Value="#6474D6"/>

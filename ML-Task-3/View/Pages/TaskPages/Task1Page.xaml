@@ -15,7 +15,7 @@
         <Grid>
             <Border   
                   HorizontalAlignment="Center" 
-                    Width="550">
+                   Width="550">
                 <TextBlock  HorizontalAlignment="Center"
                             VerticalAlignment="Top"
                 Text="Задание 1" Foreground="White" FontSize="30" Margin="-5 40 0 0"/>
@@ -28,17 +28,26 @@
                 Style="{StaticResource BorderTask}">
             </Border>
 
-            <Border
+            <Grid>
+                <Border
                 Grid.Row="1"
                 HorizontalAlignment="Center"
                 VerticalAlignment="Center"
                 Effect="{StaticResource MaterialDesignElevationShadow16}"
                 Style="{StaticResource BorderInput}">
-                <StackPanel Margin="20 0 0 0" Orientation="Horizontal" >
-                    <TextBlock FontStyle="Normal" FontSize="20" VerticalAlignment="Center" Foreground="White" Text="Введите а :"/>
-                    <TextBox x:Name="TbA7" Width="210" Margin="5 5 2 3"/>
-                </StackPanel>
-            </Border>
+
+                    <StackPanel>
+                        <TextBox
+                            materialDesign:HintAssist.Hint="Введите x"
+                             Style="{StaticResource MaterialDesignFloatingHintTextBox}"
+                            Margin="10 0 10 0" 
+                             Height="38"
+                             Foreground="White"
+                             FontSize="14"
+                            TextDecorations="Baseline" />
+                    </StackPanel>
+                </Border>
+            </Grid>
             <Button
                  x:Name="BtnAnswer"
                  Click="BtnAnswer_Click"

@@ -10,14 +10,52 @@
       d:DesignWidth="700"
       Title="Task3Page">
 
-    <Border Padding="10"
-            CornerRadius="15"
-            Background="#303285">
+    <Border>
         <Grid>
-            <Grid.RowDefinitions>
-                <RowDefinition Height="0.2*"></RowDefinition>
-                <RowDefinition Height="1*"></RowDefinition>
-            </Grid.RowDefinitions>
+            <Border   
+                  HorizontalAlignment="Center" 
+                   Width="550">
+                <TextBlock  HorizontalAlignment="Center"
+                            VerticalAlignment="Top"
+                Text="Задание 3" Foreground="White" FontSize="30" Margin="-5 40 0 0"/>
+            </Border>
+
+            <Border 
+                HorizontalAlignment="Center"
+                VerticalAlignment="Top"
+                Effect="{StaticResource MaterialDesignElevationShadow16}"
+                Style="{StaticResource BorderTask}">
+            </Border>
+
+            <Grid>
+                <Border
+                Grid.Row="1"
+                HorizontalAlignment="Center"
+                VerticalAlignment="Center"
+                Effect="{StaticResource MaterialDesignElevationShadow16}"
+                Style="{StaticResource BorderInput}">
+
+                    <StackPanel>
+                        <TextBox
+                            materialDesign:HintAssist.Hint="Введите x"
+                             Style="{StaticResource MaterialDesignFloatingHintTextBox}"
+                            Margin="10 0 10 0" 
+                             Height="38"
+                             Foreground="White"
+                             FontSize="14"
+                            TextDecorations="Baseline" />
+                    </StackPanel>
+                </Border>
+            </Grid>
+            <Button
+                 x:Name="BtnAnswer"
+                 Click="BtnAnswer_Click"
+                 Style="{StaticResource BtnAnswer}">
+                <StackPanel Orientation="Horizontal">
+                    <materialDesign:PackIcon Foreground="White"  Margin="0 8 4 0" Kind="Check" />
+                    <TextBlock Text="Ответ" Foreground="White" Margin="0 0 6 3" FontSize="20"/>
+                </StackPanel>
+            </Button>
         </Grid>
     </Border>
 </Page>

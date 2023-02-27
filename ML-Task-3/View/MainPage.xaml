@@ -13,15 +13,17 @@
                 <ColumnDefinition Width="*"/>
             </Grid.ColumnDefinitions>
 
-            <Grid Grid.Column="0">
-                <Border 
-                Grid.Column="0"
-                BorderThickness="0 0 2 0"
-                Background="Transparent"             
-                BorderBrush="#223867"
-                Width="170"
-                Height="600"
-                CornerRadius="15 0 0 15">
+            <Grid 
+               Grid.Column="0">
+
+                    <Border 
+                        Grid.Column="0"
+                        BorderThickness="0 0 2 0"
+                        Background="Transparent"             
+                        BorderBrush="#223867"
+                        Width="170"
+                        Height="600"
+                        CornerRadius="15 0 0 15">
 
                     <!--Кнопки меню-->
                     <StackPanel Grid.Column="0"
