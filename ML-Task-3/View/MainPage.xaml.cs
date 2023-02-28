@@ -17,21 +17,6 @@ namespace ML_Task_3.View
 
                         //Кнопки заданий//
 
-        private void BtnTask1_Click(object sender, RoutedEventArgs e)
-        {
-            FramePanel.Navigate(new Task1Page());
-        }
-    
-        private void BtnTask2_Click(object sender, RoutedEventArgs e)
-        {
-            FramePanel.Navigate(new Task2Page());
-        }
-
-        private void BtnTask3_Click(object sender, RoutedEventArgs e)
-        {
-            FramePanel.Navigate(new Task3Page());
-        }
-
         private void BtnTask4_Click(object sender, RoutedEventArgs e)
         {
             FramePanel.Navigate(new Task4Page());

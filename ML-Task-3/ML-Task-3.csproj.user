@@ -13,18 +13,6 @@
     <Compile Update="View\Pages\TaskPages\Task10Page.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Update="View\Pages\TaskPages\Task11Page.xaml.cs">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Update="View\Pages\TaskPages\Task1Page.xaml.cs">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Update="View\Pages\TaskPages\Task2Page.xaml.cs">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Update="View\Pages\TaskPages\Task3Page.xaml.cs">
-      <SubType>Code</SubType>
-    </Compile>
     <Compile Update="View\Pages\TaskPages\Task4Page.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -57,6 +45,9 @@
     <Page Update="AppStyle\IconStyle.xaml">
       <SubType>Designer</SubType>
     </Page>
+    <Page Update="AppStyle\ImageStyle.xaml">
+      <SubType>Designer</SubType>
+    </Page>
     <Page Update="AppStyle\MainAppStyle.xaml">
       <SubType>Designer</SubType>
     </Page>
@@ -73,18 +64,6 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Update="View\Pages\TaskPages\Task10Page.xaml">
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Update="View\Pages\TaskPages\Task11Page.xaml">
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Update="View\Pages\TaskPages\Task1Page.xaml">
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Update="View\Pages\TaskPages\Task2Page.xaml">
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Update="View\Pages\TaskPages\Task3Page.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="View\Pages\TaskPages\Task4Page.xaml">

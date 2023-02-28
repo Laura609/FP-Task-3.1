@@ -6,8 +6,8 @@
       xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
       xmlns:local="clr-namespace:ML_Task_3.View.Pages.TaskPages"
       mc:Ignorable="d" 
-      d:DesignHeight="600"
-      d:DesignWidth="700"
+      d:DesignHeight="500"
+      d:DesignWidth="600"
       Title="Task8Page">
 
     <Border>
@@ -25,6 +25,7 @@
                 VerticalAlignment="Top"
                 Effect="{StaticResource MaterialDesignElevationShadow16}"
                 Style="{StaticResource BorderTask}">
+                <Image Source="/Images/Task8.jpg" Stretch="Fill"/>
             </Border>
 
             <Grid>
@@ -38,6 +39,7 @@
                     <StackPanel>
                         <TextBox
                             materialDesign:HintAssist.Hint="Введите x"
+                            x:Name="TBx"
                              Style="{StaticResource MaterialDesignFloatingHintTextBox}"
                             Margin="10 0 10 0" 
                              Height="38"

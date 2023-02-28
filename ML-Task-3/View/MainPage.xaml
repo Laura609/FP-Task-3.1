@@ -2,8 +2,8 @@
       xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
       xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
       xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-      Height="600"
-    Width="700"
+      Height="500"
+    Width="600"
     Title="MainPage">
 
     <Border>
@@ -18,12 +18,12 @@
 
                     <Border 
                         Grid.Column="0"
+                        CornerRadius="15 0 0 15"
                         BorderThickness="0 0 2 0"
                         Background="Transparent"             
                         BorderBrush="#223867"
                         Width="170"
-                        Height="600"
-                        CornerRadius="15 0 0 15">
+                        Height="500">
 
                     <!--Кнопки меню-->
                     <StackPanel Grid.Column="0"
@@ -31,48 +31,13 @@
                             Background="#223867">
 
                         <Button 
+                            Margin="0 10 0 0"
                          Style="{StaticResource menuButton}"
-                        x:Name="BtnTask1"
-                           Click="BtnTask1_Click">
-                            <StackPanel>
-                                <materialDesign:PackIcon Kind="Calendar"
-                                Style="{StaticResource menuButtonIcon}"/>
-                                <TextBlock Text="Задание №1"
-                                   Style="{StaticResource menuButtonText}"/>
-                            </StackPanel>
-                        </Button>
-
-                        <Button 
-                        Style="{StaticResource menuButton}"
-                        x:Name="BtnTask2"
-                        Click="BtnTask2_Click">
-                            <StackPanel>
-                                <materialDesign:PackIcon Kind="Calendar"
-                                Style="{StaticResource menuButtonIcon}"/>
-                                <TextBlock Text="Задание №2"
-                                   Style="{StaticResource menuButtonText}"/>
-                            </StackPanel>
-                        </Button>
-
-                        <Button 
-                        Style="{StaticResource menuButton}"
-                        x:Name="BtnTask3"
-                        Click="BtnTask3_Click">
-                            <StackPanel>
-                                <materialDesign:PackIcon Kind="Calendar"
-                                Style="{StaticResource menuButtonIcon}"/>
-                                <TextBlock Text="Задание №3"
-                                   Style="{StaticResource menuButtonText}"/>
-                            </StackPanel>
-                        </Button>
-
-                        <Button 
-                        Style="{StaticResource menuButton}"
                         x:Name="BtnTask4"
-                        Click="BtnTask4_Click">
-                            <StackPanel>
+                           Click="BtnTask4_Click">
+                            <StackPanel Height="50">
                                 <materialDesign:PackIcon Kind="Calendar"
-                            Style="{StaticResource menuButtonIcon}"/>
+                                Style="{StaticResource menuButtonIcon}"/>
                                 <TextBlock Text="Задание №4"
                                    Style="{StaticResource menuButtonText}"/>
                             </StackPanel>
@@ -82,7 +47,7 @@
                         Style="{StaticResource menuButton}"
                         x:Name="BtnTask5"
                         Click="BtnTask5_Click">
-                            <StackPanel>
+                            <StackPanel Height="50">
                                 <materialDesign:PackIcon Kind="Calendar"
                                 Style="{StaticResource menuButtonIcon}"/>
                                 <TextBlock Text="Задание №5"
@@ -94,7 +59,7 @@
                         Style="{StaticResource menuButton}"
                         x:Name="BtnTask6"
                         Click="BtnTask6_Click">
-                            <StackPanel>
+                            <StackPanel Height="50">
                                 <materialDesign:PackIcon Kind="Calendar"
                                 Style="{StaticResource menuButtonIcon}"/>
                                 <TextBlock Text="Задание №6"
@@ -105,10 +70,10 @@
                         <Button 
                         Style="{StaticResource menuButton}"
                         x:Name="BtnTask7"
-                            Click="BtnTask7_Click">
-                            <StackPanel>
+                        Click="BtnTask7_Click">
+                            <StackPanel Height="50">
                                 <materialDesign:PackIcon Kind="Calendar"
-                                Style="{StaticResource menuButtonIcon}"/>
+                            Style="{StaticResource menuButtonIcon}"/>
                                 <TextBlock Text="Задание №7"
                                    Style="{StaticResource menuButtonText}"/>
                             </StackPanel>
@@ -117,8 +82,8 @@
                         <Button 
                         Style="{StaticResource menuButton}"
                         x:Name="BtnTask8"
-                            Click="BtnTask8_Click">
-                            <StackPanel>
+                        Click="BtnTask8_Click">
+                            <StackPanel Height="50">
                                 <materialDesign:PackIcon Kind="Calendar"
                                 Style="{StaticResource menuButtonIcon}"/>
                                 <TextBlock Text="Задание №8"
@@ -129,8 +94,8 @@
                         <Button 
                         Style="{StaticResource menuButton}"
                         x:Name="BtnTask9"
-                            Click="BtnTask9_Click">
-                            <StackPanel>
+                        Click="BtnTask9_Click">
+                            <StackPanel Height="50">
                                 <materialDesign:PackIcon Kind="Calendar"
                                 Style="{StaticResource menuButtonIcon}"/>
                                 <TextBlock Text="Задание №9"
@@ -142,7 +107,7 @@
                         Style="{StaticResource menuButton}"
                         x:Name="BtnTask10"
                             Click="BtnTask10_Click">
-                            <StackPanel>
+                            <StackPanel Height="50">
                                 <materialDesign:PackIcon Kind="Calendar"
                                 Style="{StaticResource menuButtonIcon}"/>
                                 <TextBlock Text="Задание №10"
@@ -151,9 +116,11 @@
                         </Button>
 
                         <Button 
-                        Style="{StaticResource menuButton}"
+                        Style="{StaticResource BtnLogout}"
                         x:Name="BtnLogout">
-                            <StackPanel Margin="0 -10 0 0" MouseDown="BtnLogout_Click">
+                            <StackPanel
+                                Height="50" 
+                                MouseDown="BtnLogout_Click">
                                 <materialDesign:PackIcon Kind="Power"
                                 Style="{StaticResource menuButtonIcon}"/>
                                 <TextBlock Text="Выйти"

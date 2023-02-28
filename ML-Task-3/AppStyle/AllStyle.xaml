@@ -7,5 +7,6 @@
         <ResourceDictionary Source="ButtonStyle.xaml"/>
         <ResourceDictionary Source="BorderStyle.xaml"/>
         <ResourceDictionary Source="WindowStyle.xaml"/>
+        <ResourceDictionary Source="ImageStyle.xaml"/>
     </ResourceDictionary.MergedDictionaries>
 </ResourceDictionary>
